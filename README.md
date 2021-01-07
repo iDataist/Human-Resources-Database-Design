@@ -15,7 +15,7 @@ The IT Department has certain Best Practices policies for databases, as detailed
 ## Project Steps
 The project is broken down into three major steps:
 
-Step 1: Create both business and technical proposal documents
+Step 1: Create the business and technical proposal documents
 
 Step 2: Create database diagrams
 
