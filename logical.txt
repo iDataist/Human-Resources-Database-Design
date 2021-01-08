@@ -1,53 +1,53 @@
-Employee
+employee
 -
-Employee_ID PK
-Employee_Name
-Employee_Email
+id  PK
+employee_id
+employee_name
+employee_email
 
-Education
+education
 -
-Education_ID PK
-Education_Level
+education_id  PK
+education_level
 
-Job
+job
 -
-Job_ID PK
-Job_Title
+job_id  PK
+job_title
 
-Department
+department
 -
-Department_ID PK
-Department_Name
+department_id  PK
+department_name
 
-Location
+location
 -
-Location_ID PK
-Location_Name
+location_id  PK
+location_name
 
-Address
+address
 -
-Address_ID PK
-Address
-City
-State
-Location_ID FK - Location.Location_ID
+address_id  PK
+address
+city
+state
+location_id FK - location.location_id
 
 
-Salary
+salary
 -
-Salary_ID PK
-Salary
+salary_id  PK
+salary
 
 
-Employee_History
+employee_history
 -
-Employee_ID PK FK - Employee.Employee_ID
-Manager_ID FK - Employee.Employee_ID
-Education_ID FK - Education.Education_ID
-Job_ID PK FK - Job.Job_ID
-Department_ID PK FK - Department.Department_ID
-Address_ID FK - Address.Address_ID
-Salary_ID FK - Salary.Salary_ID
-Hire_Date
-Start_Date
-End_Date
+id  PK FK - employee.id
+manager_id  FK - employee.id
+education_id  FK - education.education_id
+job_id  PK FK - job.job_id
+department_id PK  FK - department.department_id
+address_id  FK - address.address_id
+salary_id  FK - salary.salary_id
+start_date
+end_date
