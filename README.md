@@ -13,7 +13,7 @@ The [HR dataset](https://github.com/iDataist/Human-Resources-Database-Design/blo
 The IT Department has certain Best Practices policies for databases, as detailed in the [Best Practices document](https://github.com/iDataist/Human-Resources-Database-Design/blob/main/database_best_practices.pdf).
 
 ## Project Steps
-The project is broken down into four major steps, which are documented [here](https://github.com/iDataist/Human-Resources-Database-Design/blob/main/hr_database_documentation.pptx).
+The project is broken down into four major steps, which are documented [here](https://github.com/iDataist/Human-Resources-Database-Design/blob/main/hr_database_documentation.pdf).
 
 Step 1: Business and Technical Requirement
 
