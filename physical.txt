@@ -1,0 +1,53 @@
+Employee
+-
+Employee_ID INT PK
+Employee_Name VARCHAR(50)
+Employee_Email VARCHAR(50)
+
+Education
+-
+Education_ID INT PK
+Education_Level VARCHAR(50)
+
+Job
+-
+Job_ID INT PK
+Job_Title VARCHAR(50)
+
+Department
+-
+Department_ID INT PK
+Department_Name VARCHAR(50)
+
+Location
+-
+Location_ID INT PK
+Location_Name VARCHAR(50)
+
+Address
+-
+Address_ID INT PK
+Address VARCHAR(50)
+City VARCHAR(50)
+State CHAR(2)
+Location_ID FK >- Location.Location_ID
+
+
+Salary
+-
+Salary_ID INT PK
+Salary DOUBLE
+
+
+Employee_History
+-
+Employee_ID INT PK FK - Employee.Employee_ID
+Manager_ID INT FK - Employee.Employee_ID
+Education_ID INT FK >- Education.Education_ID
+Job_ID INT PK FK >- Job.Job_ID
+Department_ID PK INT FK >- Department.Department_ID
+Address_ID INT FK >- Address.Address_ID
+Salary_ID INT FK >- Salary.Salary_ID
+Hire_Date DATE
+Start_Date DATE
+End_Date DATE
