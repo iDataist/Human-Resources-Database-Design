@@ -1,0 +1,30 @@
+Employee
+-
+
+Education
+-
+
+Job
+-
+
+Department
+-
+
+Location
+-
+
+Address
+rel Location
+-
+
+Salary
+-
+
+Employee_History
+rel Employee
+rel Education
+rel Job
+rel Department
+rel Address
+rel Salary
+-
