@@ -1,53 +1,53 @@
-Employee
+employee
 -
-Employee_ID INT PK
-Employee_Name VARCHAR(50)
-Employee_Email VARCHAR(50)
+id INT PK
+employee_id INT
+employee_name VARCHAR(50)
+employee_email VARCHAR(50)
 
-Education
+education
 -
-Education_ID INT PK
-Education_Level VARCHAR(50)
+education_id INT PK
+education_level VARCHAR(50)
 
-Job
+job
 -
-Job_ID INT PK
-Job_Title VARCHAR(50)
+job_id INT PK
+job_title VARCHAR(50)
 
-Department
+department
 -
-Department_ID INT PK
-Department_Name VARCHAR(50)
+department_id INT PK
+department_name VARCHAR(50)
 
-Location
+location
 -
-Location_ID INT PK
-Location_Name VARCHAR(50)
+location_id INT PK
+location_name VARCHAR(50)
 
-Address
+address
 -
-Address_ID INT PK
-Address VARCHAR(50)
-City VARCHAR(50)
-State CHAR(2)
-Location_ID FK >- Location.Location_ID
+address_id INT PK
+address VARCHAR(50)
+city VARCHAR(50)
+state CHAR(2)
+location_id FK >- location.location_id
 
 
-Salary
+salary
 -
-Salary_ID INT PK
-Salary DOUBLE
+salary_id INT PK
+salary INT
 
 
-Employee_History
+employee_history
 -
-Employee_ID INT PK FK - Employee.Employee_ID
-Manager_ID INT FK - Employee.Employee_ID
-Education_ID INT FK >- Education.Education_ID
-Job_ID INT PK FK >- Job.Job_ID
-Department_ID PK INT FK >- Department.Department_ID
-Address_ID INT FK >- Address.Address_ID
-Salary_ID INT FK >- Salary.Salary_ID
-Hire_Date DATE
-Start_Date DATE
-End_Date DATE
+id INT PK FK - employee.id
+manager_id INT FK - employee.id
+education_id INT FK >- education.education_id
+job_id INT PK FK >- job.job_id
+department_id PK INT FK >- department.department_id
+address_id INT FK >- address.address_id
+salary_id INT FK >- salary.salary_id
+start_date DATE
+end_date DATE
