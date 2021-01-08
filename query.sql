@@ -97,7 +97,7 @@ SELECT
   ed.education,
   j.job,
   d.department,
-  e2.employee_name as manager_name,
+  e2.employee_name AS manager_name,
   s.salary,
   a.address,
   a.city,
@@ -117,3 +117,4 @@ SELECT
   *
 FROM
   all_attributes;
+
