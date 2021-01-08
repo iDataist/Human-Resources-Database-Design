@@ -1,30 +1,30 @@
-Employee
+employee
 -
 
-Education
+education
 -
 
-Job
+job
 -
 
-Department
+department
 -
 
-Location
+location
 -
 
-Address
-rel Location
+address
+rel location
 -
 
-Salary
+salary
 -
 
-Employee_History
-rel Employee
-rel Education
-rel Job
-rel Department
-rel Address
-rel Salary
+employee_history
+rel employee
+rel education
+rel job
+rel department
+rel address
+rel salary
 -
