@@ -1,0 +1,53 @@
+Employee
+-
+Employee_ID PK
+Employee_Name
+Employee_Email
+
+Education
+-
+Education_ID PK
+Education_Level
+
+Job
+-
+Job_ID PK
+Job_Title
+
+Department
+-
+Department_ID PK
+Department_Name
+
+Location
+-
+Location_ID PK
+Location_Name
+
+Address
+-
+Address_ID PK
+Address
+City
+State
+Location_ID FK - Location.Location_ID
+
+
+Salary
+-
+Salary_ID PK
+Salary
+
+
+Employee_History
+-
+Employee_ID PK FK - Employee.Employee_ID
+Manager_ID FK - Employee.Employee_ID
+Education_ID FK - Education.Education_ID
+Job_ID PK FK - Job.Job_ID
+Department_ID PK FK - Department.Department_ID
+Address_ID FK - Address.Address_ID
+Salary_ID FK - Salary.Salary_ID
+Hire_Date
+Start_Date
+End_Date
