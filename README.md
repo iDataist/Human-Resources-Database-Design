@@ -15,9 +15,9 @@ The IT Department has certain Best Practices policies for databases, as detailed
 ## Project Steps
 The project is broken down into three major steps:
 
-Step 1: Create the business and technical requirement documents
+Step 1: Business and Technical Requirement
 
-Step 2: Create database diagrams
+Step 2: Relational Database Design
 
-Step 3: Create a database and populate the database with the HR dataset
+Step 3: Create A Physical Database
 
