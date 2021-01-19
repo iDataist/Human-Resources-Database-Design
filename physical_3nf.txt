@@ -1,0 +1,57 @@
+employee
+-
+id INT PK
+employee_id INT
+employee_name VARCHAR(50)
+employee_email VARCHAR(50)
+
+education
+-
+education_id INT PK
+education_level VARCHAR(50)
+
+job
+-
+job_id INT PK
+job_title VARCHAR(50)
+
+department
+-
+department_id INT PK
+department_name VARCHAR(50)
+
+location
+-
+location_id INT PK
+location_name VARCHAR(50)
+
+address
+-
+address_id INT PK
+address VARCHAR(50)
+city_id INT FK >- city.city_id
+location_id INT FK >- location.location_id
+
+city
+-
+city_id INT PK
+city VARCHAR(50)
+state CHAR(2)
+
+salary
+-
+salary_id INT PK
+salary INT
+
+
+employee_history
+-
+id INT PK FK - employee.id
+manager_id INT FK - employee.id
+education_id INT FK >- education.education_id
+job_id INT PK FK >- job.job_id
+department_id PK INT FK >- department.department_id
+address_id INT FK >- address.address_id
+salary_id INT FK >- salary.salary_id
+start_date DATE
+end_date DATE
