@@ -1,0 +1,34 @@
+employee
+-
+
+education
+-
+
+job
+-
+
+department
+-
+
+location
+-
+
+city
+-
+
+address
+rel location
+rel city
+-
+
+salary
+-
+
+employee_history
+rel employee
+rel education
+rel job
+rel department
+rel address
+rel salary
+-
